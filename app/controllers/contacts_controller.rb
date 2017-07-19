@@ -1,4 +1,4 @@
-cclass ContactsController < ApplicationController
+class ContactsController < ApplicationController
 
   def process_form
     Rails.logger.debug "DEBUG: params are #{params.inspect}"
